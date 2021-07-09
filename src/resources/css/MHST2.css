@@ -1,0 +1,102 @@
+.headerVar{
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    /* background-color: silver; */
+    background-image: url("../images/SceneMaterial/bg_header.jpg");
+    background-repeat:repeat;
+    color: burlywood;
+    text-shadow: greenyellow 10px;
+    text-align: center;
+    font-size: xx-large;
+/*
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+*/
+}
+
+.navbarVarSetting{
+    /* background-color: blue; */
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    /* box-sizing: border-box; */
+    /* border-color: white;
+    padding: 20px;
+
+    /* margin: 3px 3px 3px 3px;*/
+}
+
+.indexEnvSetting{
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.tableEnvVar{
+    border-spacing: 20px 0px;
+    text-align: left;
+}
+
+.sectionVar{
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+
+    background-image: url("../images/character/story/index_character07.jpg");
+    background-size: 8%;
+    /*
+    background-color: red;
+    background-repeat:repeat;
+    */
+     border-radius: 10px;
+    padding: 0px 10px 0px 0px; 
+
+    /* margin-top: 10px;
+    margin-bottom: 10px;*/
+
+}
+
+.listBarVar{
+    left: 10px;
+    top: 10px;
+    /* height: 50px; */
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(5, 157, 245);
+    border-radius: 10px;
+    padding: 1px 1px 1px 1px; 
+}
+
+.nav-link{
+    background-color: white;
+    /* margin-top: 10px;
+    margin-bottom: 10px;*/
+    border-radius: 5px;
+    padding: 1px 1px 1px 1px; 
+}
+
+.asideVar {
+    position: absolute;
+    left: 150px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    /* background-color: Gold;- */
+    background-image: url("../images/SceneMaterial/bg_game.jpg");
+    background-repeat:repeat;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.MHS2Logo {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 30px;
+    top: 0px;
+}

@@ -1,0 +1,46 @@
+body{
+    font-family: "Noto Sans","Microsoft JhengHei";
+    color:#545454;
+  }
+/*
+  a{
+    text-decoration:none;
+    display:block;
+  }
+  .box{
+    position: absolute;
+    left: 30px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .menu {
+    list-style-type: none;
+  }
+  .menu>li>a{
+    color:#545454;
+    padding:0.5em;
+    border:1px solid #545454;
+    font-size: 18px;
+  }
+  .menu>li>a:hover,
+  .menu>li>a.active{
+    background: #ecc7bf;
+  }
+  .inmenu{
+    display:none;
+  }
+  .inmenu>li{
+    padding:0.5em;
+  }
+
+  .listBarVar{
+    
+  }
+*/
+  .Egglist{
+      position:absolute;
+      width: 0 px;
+      height: 0px;
+      left:0px;
+  }
+

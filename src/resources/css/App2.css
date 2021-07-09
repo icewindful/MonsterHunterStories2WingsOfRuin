@@ -1,0 +1,26 @@
+.headerVar{
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    background-color: silver;
+}
+
+.sectionVar{
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    background-color: red;
+}
+
+.asideVar {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    background-color: Gold;
+}
