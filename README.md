@@ -1,3 +1,16 @@
+# 我做了什麼修改?
+
+- 先看 https://reactjs.org/docs/create-a-new-react-app.html#create-react-app 文章建立專案
+- 再看 https://reactrouter.com/web/guides/quick-start 看如何安裝 router lib 跟使用
+
+```
+ 1. npx create-react-app monster-hunter-stories2-wings-of-ruin
+ 2. cd monster-hunter-stories2-wings-of-ruin/
+ 3. yarn add react-router-dom
+ 4. 把舊的 src copy 過來覆蓋.
+ 5. 加入 tbody 介於 table <-> tr 之間
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
