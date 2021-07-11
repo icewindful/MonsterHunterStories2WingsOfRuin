@@ -11,6 +11,13 @@
  5. 加入 tbody 介於 table <-> tr 之間
 ```
 
+# 佈署相關
+- 先看 https://devcenter.heroku.com/articles/procfile#the-web-process-type
+- 再看 https://tech.amikelive.com/node-830/reactjs-changing-default-port-3000-in-create-react-app/#:~:text=To%20change%20the%20development%20server,scripts%20eject%22%20%7D%20...
+  - 要記得榜 port!!
+  - 不需要處理 npm install or yarn, 參考這篇, Ref: https://devcenter.heroku.com/articles/nodejs-support#package-installation
+- 看 Procfile 把他看懂...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
