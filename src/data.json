@@ -3,12 +3,14 @@
     {
       "id": 1,
       "name": "龍AAA",
-      "pic": "1.png"
+      "pic": "1.png",
+      "level": 6
     },
     {
       "id": 2,
       "name": "龍2BBB",
-      "pic": "2.jpg"
+      "pic": "2.jpg",
+      "level": 10
     }
   ]
 }

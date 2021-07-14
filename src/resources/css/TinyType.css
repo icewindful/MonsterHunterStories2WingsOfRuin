@@ -1,0 +1,11 @@
+.level-block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  background-color: black;
+}
+
+.level-block--filled {
+  background-color: blue;
+}
