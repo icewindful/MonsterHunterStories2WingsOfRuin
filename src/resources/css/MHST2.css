@@ -80,6 +80,7 @@
 }
 
 .asideVar {
+    overflow: auto;
     position: absolute;
     left: 150px;
     right: 0;
