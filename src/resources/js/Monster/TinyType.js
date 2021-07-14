@@ -1,5 +1,20 @@
 import data from '../../../data.json';
+import styled from 'styled-components'
+
 import '../../../resources/css/TinyType.css';
+
+// const Span = styled.span`
+//   display: inline-block;
+//   width: 10px;
+//   height: 10px;
+//   margin-right: 2px;
+//   background-color: black;
+
+
+//   .level-block--filled {
+//     background-color: blue;
+//   }
+// `;
 
 const LevelCompoent = ({ level }) => {
   const output = []
@@ -9,7 +24,7 @@ const LevelCompoent = ({ level }) => {
     });
   }
   return output.map(item => {
-    return (<span class={`level-block ${item.filled ? `level-block--filled` : ''}`} />)
+    return (<span className={`level-block ${item.filled ? `level-block--filled` : ''}`} />)
   })
 }
 
