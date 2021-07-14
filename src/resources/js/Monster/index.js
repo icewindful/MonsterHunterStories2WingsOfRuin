@@ -1,6 +1,8 @@
 //import React, { Component, useState } from 'react';
 import React, { useState } from 'react';
-import '../css/Monster.css'
+
+import TinyType from './TinyType';
+import '../../css/Monster.css'
 
 const openMenuFactory = (menuId, setSelectedMenu) => {
   return () => {
@@ -32,31 +34,7 @@ const Monster = () => {
         <a href="# " onClick={openMenuFactory(1, setSelectedMenu)}>小型種</a>
         {
           subMenuDisplayFactory(1, selectedMenu, () => (
-            <ul className="menu">
-              <li >
-                <tr className = "monsterTable"><th className = "monsterbox">魔物名稱</th><th className = "monsterbox">草食龍</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物地區</th><th className = "monsterbox">???</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物特性</th><th className = "monsterbox">???</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">羈絆招式</th> <th className = "monsterbox">???</th><th className = "monsterbox">||功能||嵌入影片#</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">蛋</th><th className = "monsterbox">||圖片||</th></tr>
-              </li>
-
-              <li>
-                <tr className = "monsterTable"><th className = "monsterbox">魔物名稱</th><th className = "monsterbox">背甲龍</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物地區</th><th className = "monsterbox">???</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物特性</th><th className = "monsterbox">???</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">羈絆招式</th> <th className = "monsterbox">???</th><th className = "monsterbox">||功能||嵌入影片#</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">蛋</th><th className = "monsterbox">||圖片||</th></tr>
-              </li>
-
-              <li>
-                <tr className = "monsterTable"><th className = "monsterbox">魔物名稱</th><th className = "monsterbox">波波</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物地區</th><th className = "monsterbox">???</th></tr> 
-                <tr className = "monsterTable"><th className = "monsterbox">魔物特性</th><th className = "monsterbox">???</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">羈絆招式</th> <th className = "monsterbox">???</th><th className = "monsterbox">||功能||嵌入影片#</th></tr>
-                <tr className = "monsterTable"><th className = "monsterbox">蛋</th><th className = "monsterbox">||圖片||</th></tr>
-              </li>
-            </ul>
+            <TinyType />
           ))
         }
       </li>

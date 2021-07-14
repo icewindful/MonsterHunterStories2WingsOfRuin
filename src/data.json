@@ -1,0 +1,14 @@
+{
+  "tinyType": [
+    {
+      "id": 1,
+      "name": "龍AAA",
+      "pic": "1.png"
+    },
+    {
+      "id": 2,
+      "name": "龍2BBB",
+      "pic": "2.jpg"
+    }
+  ]
+}
