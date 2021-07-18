@@ -28,7 +28,7 @@ class App extends Component {
       return (
       <Router>
           <div className = "indexEnvSetting">
-            
+          
             <header className = "headerVar" >Monster Hunter Stories2 Wings Of Ruin 攻略</header>
             <img className="MHS2Logo" src={MHS2Logo} alt="TitleLogo" />
             <nav className="navbarVarSetting">
@@ -38,13 +38,13 @@ class App extends Component {
                 <tr className = "trEnvVar">
                   <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> Home </Link> </th> 
                   <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
-                  <th className = "thEnvVar"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
-                  <th className = "thEnvVar"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
-                  <th className = "thEnvVar"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
-                  <th className = "thEnvVar"> <Link to={'/Maps'} className="nav-link"> 地圖 </Link></th>
-                  <th className = "thEnvVar"> <Link to={'/Mission'} className="nav-link"> 遊戲系統 </Link> </th> 
-                  <th className = "thEnvVar"> <Link to={'/Gamesystem'} className="nav-link"> Monster </Link></th>
+                  <th className = "thEnvVar"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
+                  <th className = "thEnvVar"> <Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></th>
                   <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
+                  <th className = "thEnvVarhide"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
+                  <th className = "thEnvVarhide"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
+                  <th className = "thEnvVarhide"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
+                  <th className = "thEnvVarhide"> <Link to={'/Maps'} className="nav-link"> 地圖 </Link></th>
                 </tr>
               </tbody>
             </table>
@@ -54,13 +54,13 @@ class App extends Component {
               <ul className="navbar-nav mr-auto">
                 <div className="listBarVar"><Link to={'/'} className="nav-link"> Home </Link></div>
                 <div className="listBarVar" ><Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></div>
-                <div className="listBarVar"><Link to={'/Weapon'} className="nav-link"> 武器 </Link></div>
-                <div className="listBarVar"><Link to={'/Equipment'} className="nav-link"> 防具 </Link></div>
-                <div className="listBarVar"><Link to={'/Item'} className="nav-link"> 道具 </Link></div>
-                <div className="listBarVar"><Link to={'/Maps'} className="nav-link"> 地圖 </Link></div>
                 <div className="listBarVar"><Link to={'/Mission'} className="nav-link"> 任務 </Link></div>
                 <div className="listBarVar"><Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></div>
                 <div className="listBarVar"><Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Weapon'} className="nav-link"> 武器 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Equipment'} className="nav-link"> 防具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Item'} className="nav-link"> 道具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Maps'} className="nav-link"> 地圖 </Link></div>
               </ul>
             </section>
 

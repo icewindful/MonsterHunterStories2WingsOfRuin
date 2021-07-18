@@ -7,7 +7,7 @@ class Gamesystem extends Component {
   render() {
     return (
         <div>
-          <div className ="titleText">系統</div>
+          <div className ="titleListText">系統</div>
           <h2>戰鬥系統</h2>
           <h2>相剋循環 (力量 → 技巧 → 速度 → 力量)</h2>
             <img className="battle01" src={battle01} alt="battle01" />

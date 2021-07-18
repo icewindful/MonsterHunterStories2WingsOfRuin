@@ -1,0 +1,30 @@
+.level-block {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  /* background-color: black;*/
+  border-style:solid;
+  border-color: black;
+}
+
+.level-block--filled {
+  background-color: blue;
+  border-color: blue;
+}
+
+.monsterInfoBox{
+  width: 1200px;
+}
+
+.monsterTitle{
+  color: blue;
+  text-shadow: 0px 0px 5px red; 
+}
+
+.titleListText{
+  font-size: xx-large ;
+  color: slateblue;
+  text-shadow: 0px 0px 2px rebeccapurple; 
+}
+

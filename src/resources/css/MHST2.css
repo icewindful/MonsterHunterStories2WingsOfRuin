@@ -36,8 +36,27 @@
 
 .tableEnvVar{
     border-spacing: 20px 0px;
-    text-align: left;
+    text-align: center;
 }
+
+
+
+.thEnvVarhide{
+    visibility: hidden;
+}
+
+.thEnvVar{
+    border-style: solid;
+    border-color: rgb(5, 157, 245);
+    border-radius: 10px;
+    padding: 1px 1px 1px 1px; 
+}
+
+.thEnvVar:hover,
+.thEnvVar.active{
+    border-color:red;
+}
+
 
 .sectionVar{
     position: absolute;
@@ -71,6 +90,16 @@
     padding: 1px 1px 1px 1px; 
 }
 
+.listBarVar:hover,
+.listBarVar.active{
+    border-color:red;
+}
+
+.listBarVarhide{
+    visibility: hidden;
+}
+
+
 .nav-link{
     background-color: white;
     /* margin-top: 10px;
@@ -78,6 +107,8 @@
     border-radius: 5px;
     padding: 1px 1px 1px 1px; 
 }
+
+
 
 .asideVar {
     overflow: auto;
@@ -100,4 +131,12 @@
     height: 60px;
     left: 30px;
     top: 0px;
+}
+
+.Show{
+    visibility: none;
+}
+
+.Hiden{
+    visibility: hidden;
 }

@@ -7,7 +7,7 @@ class Egglist extends Component {
   render() {
     return (
         <div>
-          <div className ="titleText">速查蛋列表</div>
+          <div className ="titleListText">速查蛋列表</div>
           <img className="EGG_list_Mandarin" src={EGG_list_Mandarin} alt="EGG_list_Mandarin" />
         </div>
     );
