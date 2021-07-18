@@ -25,12 +25,12 @@ const openMenuFactory = (menuId, setSelectedMenu) => {
       }
       return menuId;
     });
-    /*
+    
     const dom = document.querySelector('#root > div > aside');
     if (dom) {
       dom.scrollTop = 0;
     }
-    */
+    
   };
 }
 
