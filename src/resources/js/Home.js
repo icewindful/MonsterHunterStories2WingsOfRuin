@@ -8,7 +8,7 @@ class Home extends Component {
     return (
         <div>
           <iframe
-            src="https://player.twitch.tv/?channel=icewindful&parent=localhost"
+          src="https://player.twitch.tv/?channel=icewindful&parent=mhs2.herokuapp.com"
             height="480"
             width="320"
             frameborder="1"
