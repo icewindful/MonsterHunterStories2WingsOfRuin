@@ -5,12 +5,18 @@ import './index.css';
 import MHST2 from './resources/js/MHST2';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <MHST2 />
-  </React.StrictMode>,
+// NOTE: 避免使用者用 http 來訪問, 他會造成 twitch embedded 失效
+if (window.location.protocol === 'http:' && !window.location.host.match('localhost|127.0.0.1')) {
+  console.warn('auto js redirect to https');
+  window.location.href = window.location.href.replace('http://', 'https://');
+} else {
+  ReactDOM.render(
+    <React.StrictMode>
+      <MHST2 />
+    </React.StrictMode>,
 
-  document.getElementById('root')
-);
+    document.getElementById('root')
+  );
+}
 
 reportWebVitals();
