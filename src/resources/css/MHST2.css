@@ -5,7 +5,7 @@
     left: 0px;    
     right: 0px;
     top: 0px;
-    height: 10%;
+    height: 8%;
     /* background-color: silver; */
     background-image: url("../images/SceneMaterial/bg_header.jpg");
     background-repeat:repeat;
@@ -33,7 +33,7 @@
     /* background-color: blue; */
     position: relative;
     left: 0px;
-    top:10%;
+    top: 10%;
     background-image: url("../images/SceneMaterial/bg_header.jpg");
     background-repeat:repeat;
     width: auto;
@@ -61,18 +61,14 @@
     width: auto;
 }
 
-.trEnvVar{
-    position: relative;
-    width: auto;
-    left: 2%;
-    top: 100%;
-}
-
 .thEnvVarhide{
     visibility: hidden;
 }
 
 .thEnvVar{
+    position: relative;
+    left: 2%;
+    top: 0%;
     font-size: large;
     width: auto;
     border-style: solid;
@@ -146,8 +142,8 @@
     background-color: white;
     /* margin-top: 10px;
     margin-bottom: 10px;*/
-    font-size:large;
-    width: auto;
+    font-size:auto;
+    width: 100%;
     border-radius: 5px;
     padding: 1px 1px 1px 1px; 
 }
