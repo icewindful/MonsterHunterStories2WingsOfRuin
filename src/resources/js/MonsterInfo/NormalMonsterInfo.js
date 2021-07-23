@@ -304,7 +304,7 @@ const Slash = ({status}) => {
 export const NormalMonsterInfo = () => {
 
   return(
-    <div className="InfoText">Normal
+    <div className="InfoText">
     <tbody>
       {dataN.normal.map(_item => {
           

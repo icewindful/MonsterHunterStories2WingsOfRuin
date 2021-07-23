@@ -24,11 +24,11 @@
 
 .navbarVarSetting{
     /* background-color: blue; */
-    position: relative;
-    left: -50px;
+    position: absolute;
+    left: 50px;
     top: 40px;
 
-    width: 280px;
+    width: 1000px;
 
     /* NOTE: 網頁水平卷軸出現問題 */
     overflow-x: hidden;

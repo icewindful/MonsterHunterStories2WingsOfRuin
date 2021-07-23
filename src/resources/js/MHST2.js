@@ -46,32 +46,8 @@ import MHS2Headerbar from '../images/SceneMaterial/bg_header.jpg';
 
 */
 
-
-class App extends Component {
-    render() {
-      return (
-      <Router>
-          <div className = "indexEnvSetting">
-          
-            <header className = "headerVar" >Monster Hunter Stories2 Wings Of Ruin 攻略</header>
-            <img className="MHS2Logo" src={MHS2Logo} alt="TitleLogo" />
-
-            <aside className="asideVar">
-              <Switch>
-                  <Route exact path='/' component={Home} />
-                  <Route path='/MonsterInfo' component={MonsterInfo} />
-                  <Route path='/Monster' component={Monster} />
-                  <Route path='/Weapon' component={Weapon} />
-                  <Route path='/Equipment' component={Equipment} />
-                  <Route path='/Item' component={Item} />
-                  <Route path='/Maps' component={Maps} />
-                  <Route path='/Mission' component={Mission} />
-                  <Route path='/Gamesystem' component={Gamesystem} />
-                  <Route path='/FastEgglist' component={FastEgglist} />
-              </Switch>
-            </aside>
-
-            <section className="sectionVar">
+/*
+           <section className="sectionVar">
               <ul className="navbar-nav mr-auto">
               <iframe
                 src="https://player.twitch.tv/?channel=icewindful&parent=localhost&autoplay=false"
@@ -94,7 +70,52 @@ class App extends Component {
                 <div className="listBarVarhide"><Link to={'/Maps'} className="sectionnav-link"> 地圖 </Link></div>
               </ul>
             </section>
+*/
 
+
+class App extends Component {
+    render() {
+      return (
+      <Router>
+          <div className = "indexEnvSetting">
+          
+            <header className = "headerVar" >Monster Hunter Stories2 Wings Of Ruin 攻略</header>
+            <img className="MHS2Logo" src={MHS2Logo} alt="TitleLogo" />
+
+            <nav className="navbarVarSetting">
+
+              <table className = "tableEnvVar">
+                <tbody>
+                  <tr className = "trEnvVar">
+                    <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> 更新內容 </Link> </th> 
+                    <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link"> 魔物資訊(弱點) </Link></th>
+                    <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
+                    <th className = "thEnvVar"> <Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></th>
+                    <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
+                    <th className = "thEnvVarhide"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
+                    <th className = "thEnvVarhide"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
+                    <th className = "thEnvVarhide"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
+                    <th className = "thEnvVarhide"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
+                    <th className = "thEnvVarhide"> <Link to={'/Maps'} className="nav-link"> 地圖 </Link></th>
+                  </tr>
+                </tbody>
+              </table>
+            </nav>
+
+            <aside className="asideVar">
+              <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/MonsterInfo' component={MonsterInfo} />
+                  <Route path='/Monster' component={Monster} />
+                  <Route path='/Weapon' component={Weapon} />
+                  <Route path='/Equipment' component={Equipment} />
+                  <Route path='/Item' component={Item} />
+                  <Route path='/Maps' component={Maps} />
+                  <Route path='/Mission' component={Mission} />
+                  <Route path='/Gamesystem' component={Gamesystem} />
+                  <Route path='/FastEgglist' component={FastEgglist} />
+              </Switch>
+            </aside>
 
           </div>
         </Router>
