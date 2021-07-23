@@ -15,7 +15,9 @@ body{
   }
   .menu {
     list-style-type: none;
-    width: 2300px;
+    width: 1200px;
+    position: relative;
+    left: -50px;
   }
   .menu>li>a{
     color:#545454;
@@ -85,7 +87,6 @@ body{
 
 .monsterTypeLine{
   text-size-adjust: auto;
-  
 }
 
 .OpenAllMenu{
@@ -96,10 +97,20 @@ body{
   border-color: teal;
   border-radius: 20px;  
 
-  left: 40px;
+  left: -10px;
   right: 20px;
   width: 80px;
   text-align: center;
   /* background-color: blue; */
   
+}
+
+.icewindfulChannel{
+  position: relative;
+  left:-30px;
+  top:0px;
+  /*
+  height: 50%;
+  width: 50%;
+  */
 }

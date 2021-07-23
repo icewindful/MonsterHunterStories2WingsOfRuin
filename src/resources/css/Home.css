@@ -2,6 +2,16 @@
 
   font-size: 30px;
   position: relative;
-  width: auto;
+  left: 10px;
+  top:  0px;
+  width: 120px;
   height: auto;
+  border-style: outset;
+  background-color: cornsilk;
+}
+
+.HomeListText:hover,
+.HomeListText.active{
+  border-style: inset;
+  background-color: skyblue;
 }

@@ -1,0 +1,49 @@
+.selectButtonN{
+  position: relative;
+  left: 20px;
+  top:20px;
+  border-style: outset;
+  font-size: large;
+  background-color: transparent;
+}
+
+.selectButtonN:hover,
+.selectButtonN:active{
+  border-style: inset;
+}
+
+.selectButton{
+  position: relative;
+  left: 20px;
+  top:20px;
+  border-style: outset;
+  font-size: large;
+  background-color: transparent;
+}
+
+.selectButton:hover,
+.selectButton:active{
+  border-style: inset;
+}
+
+
+.selectButtonN{
+  background-color: skyblue;
+}
+
+.selectButtonA{
+  background-color: red;
+}
+
+.selectButtonB{
+  background-color: gold;
+}
+
+
+/* asign detail style*/
+/*
+.selectButtonN.off.test {
+
+}
+
+*/

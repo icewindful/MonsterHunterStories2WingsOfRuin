@@ -54,7 +54,9 @@
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
-    padding: 1px 1px 1px 1px; 
+    padding: 1px 1px 1px 1px;
+    position: relative;
+    left: 150px;
 }
 
 .thEnvVar:hover,
@@ -69,15 +71,14 @@
     right: 0;
     top: 70px;
     bottom: 0;
+    width: 280px;
 
     background-image: url("../images/character/story/index_character07.jpg");
-    background-size: 8%;
+    background-size: 88%;
     /*
     background-color: red;
     background-repeat:repeat;
     */
-     border-radius: 10px;
-    padding: 0px 10px 0px 0px; 
 
     /* margin-top: 10px;
     margin-bottom: 10px;*/
@@ -85,10 +86,14 @@
 }
 
 .listBarVar{
-    left: 10px;
-    top: 10px;
+    position: relative;
+    left: 0px;
+    top: 0px;
     /* height: 50px; */
     text-align: left;
+    background-color:white;
+    font-size: x-large;
+    text-align: center;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
@@ -118,15 +123,13 @@
 .asideVar {
     overflow: auto;
     position: absolute;
-    left: 150px;
+    left: 280px;
     right: 0;
     top: 70px;
     bottom: 0;
     /* background-color: Gold;- */
     background-image: url("../images/SceneMaterial/bg_game.jpg");
     background-repeat:repeat;
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
 }
 
 

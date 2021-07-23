@@ -12,7 +12,7 @@ import Item from './Item';
 import Mission from './Mission';
 import FastEgglist from './FastEggList';
 import Gamesystem from './Gamesystem';
-
+import MonsterInfo from './MonsterInfo'
 
 import MHS2Logo from '../images/Logo/header_titlelogo_ja.png';
 /*
@@ -36,11 +36,12 @@ class App extends Component {
             <table className = "tableEnvVar">
               <tbody>
                 <tr className = "trEnvVar">
-                  <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> Home </Link> </th> 
+                  <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> 更新內容 </Link> </th> 
+                  <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link"> 魔物資訊(弱點) </Link></th>
                   <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
-                  <th className = "thEnvVar"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
                   <th className = "thEnvVar"> <Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></th>
                   <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
+                  <th className = "thEnvVarhide"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
                   <th className = "thEnvVarhide"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
                   <th className = "thEnvVarhide"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
                   <th className = "thEnvVarhide"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
@@ -52,21 +53,32 @@ class App extends Component {
 
             <section className="sectionVar">
               <ul className="navbar-nav mr-auto">
-                <div className="listBarVar"><Link to={'/'} className="nav-link"> Home </Link></div>
-                <div className="listBarVar" ><Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></div>
-                <div className="listBarVar"><Link to={'/Mission'} className="nav-link"> 任務 </Link></div>
-                <div className="listBarVar"><Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></div>
-                <div className="listBarVar"><Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Weapon'} className="nav-link"> 武器 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Equipment'} className="nav-link"> 防具 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Item'} className="nav-link"> 道具 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Maps'} className="nav-link"> 地圖 </Link></div>
+              <iframe
+                src="https://player.twitch.tv/?channel=icewindful&parent=localhost&autoplay=false"
+                title="icewindful Channel"
+                height="180"
+                width="270"
+                frameborder="1"
+                scrolling="no"
+                allowfullscreen="no"　className="icewindfulChannel">
+              </iframe>
+                <div className="listBarVar"><Link to={'/'} className="sectionnav-link"> 更新內容 </Link></div>
+                <div className="listBarVar" ><Link to={'/MonsterInfo'} className="sectionnav-link"> 魔物資訊(弱點) </Link></div>
+                <div className="listBarVar" ><Link to={'/Monster'} className="sectionnav-link"> 隨行獸 </Link></div>
+                <div className="listBarVar"><Link to={'/Gamesystem'} className="sectionnav-link"> 遊戲系統 </Link></div>
+                <div className="listBarVar"><Link to={'/FastEgglist'} className="sectionnav-link"> 速查蛋種圖 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Mission'} className="sectionnav-link"> 任務 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Weapon'} className="sectionnav-link"> 武器 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Equipment'} className="sectionnav-link"> 防具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Item'} className="sectionnav-link"> 道具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Maps'} className="sectionnav-link"> 地圖 </Link></div>
               </ul>
             </section>
 
             <aside className="asideVar">
               <Switch>
                   <Route exact path='/' component={Home} />
+                  <Route path='/MonsterInfo' component={MonsterInfo} />
                   <Route path='/Monster' component={Monster} />
                   <Route path='/Weapon' component={Weapon} />
                   <Route path='/Equipment' component={Equipment} />

@@ -52,19 +52,41 @@ const Monster = () => {
     //   birdTypeRef.current.scrollIntoView()
     // }
 
+    /*
+            {
+                [1,2,3,4].map(num => {
+                  return [5,6,7,8].map(num2 => {
+                    return (
+                      <div>
+                        <span>{ num2 }-{num}</span>
+                      </div>
+                    )
+                  })
+                })
+              }
+              {
+                1
+              }
+              {
+                [3,5,7]
+              }
+    */
+
+
     const [selectedMenu, setSelectedMenu] = useState(null);
     return (
         
         <div className="box">
+  
             <a href="# " className = "OpenAllMenu" onClick={openMenuFactory(999, setSelectedMenu)}>展開全部</a>
             <ul className="menu">
             <div className ="titleListText">隨行寵種類</div>
         <li className="monsterTypeLine">
         <a href="# " onClick={openMenuFactory(1, setSelectedMenu)}>草食種</a>
         {
-          subMenuDisplayFactory(1, selectedMenu, () => (
-            <TinyType />
-          ))          
+          subMenuDisplayFactory(1, selectedMenu, () => {
+            return <TinyType />
+          })          
         }
       </li>
 

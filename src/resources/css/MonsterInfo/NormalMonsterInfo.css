@@ -1,0 +1,46 @@
+.InfoText{
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.MonsterInfoBox{
+  position: relative;
+  border-style:double;
+  border-color:gray;
+  width: 100px;
+  text-align: left;
+}
+
+.MonsterInfoBoxIcon{
+  position: relative;
+  border-style:none;
+  border-color:gray;
+  width: 100px;
+  text-align: center;
+  
+}
+
+.MonsterStatus{
+  text-align: top,center;
+  font-size: x-large;
+}
+
+.MonsterInfoBoxName{
+  text-align: top;
+  font-size: x-large;
+  color:blue;
+}
+
+.MonsterInfoBoxPartWeakness{
+  position: relative;
+  border-style:double;
+  border-color:gray;
+  width: 100px;
+
+}
+
+.PartBox{
+  position:relative;
+  background-color:royalblue;
+}
