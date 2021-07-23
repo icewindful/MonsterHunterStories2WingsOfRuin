@@ -17,11 +17,18 @@
 */
 }
 
+.navbar-nav{
+    position: relative;
+    width: 200px;
+}
+
 .navbarVarSetting{
     /* background-color: blue; */
-    position: absolute;
-    left: 140px;
+    position: relative;
+    left: -50px;
     top: 40px;
+
+    width: 280px;
 
     /* NOTE: 網頁水平卷軸出現問題 */
     overflow-x: hidden;
@@ -40,6 +47,7 @@
 }
 
 .tableEnvVar{
+
     border-spacing: 20px 0px;
     text-align: center;
 }
@@ -51,38 +59,35 @@
 }
 
 .thEnvVar{
-    position:absolute;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
     padding: 1px 1px 1px 1px;
     position: relative;
-    /* left: 150px; */
-    left: 0px;
+    left: 150px;
 }
 
 .thEnvVar:hover,
 .thEnvVar.active{
     border-color:red;
 }
-
 .sectionnav-link{
-    width: auto;
-    font-size: x-large;
-    text-align: center;
-    text-shadow: 3px 3px 5px slateblue;
+    position: relative;
+    left: auto;
 }
 
 .sectionVar{
-    position: absolute;
+    position: relative;
     left: 0px;
     right: 0;
-    top: 70px;
+    top: 150px;
     bottom: 0;
-    width: 280px;
-
+    width: 250px;
+    height: 900px;
+    /*
     background-image: url("../images/character/story/index_character07.jpg");
     background-size: 88%;
+    */
     /*
     background-color: red;
     background-repeat:repeat;
@@ -95,9 +100,14 @@
 
 .listBarVar{
     position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
     /* height: 50px; */
+    text-align: left;
     background-color:white;
-    text-align: right;
+    font-size: x-large;
+    text-align: center;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
@@ -127,7 +137,7 @@
 .asideVar {
     overflow: auto;
     position: absolute;
-    /* left: 280px; */
+    width: auto;
     left: 0px;
     right: 0;
     top: 70px;
@@ -152,14 +162,4 @@
 
 .Hiden{
     visibility: hidden;
-}
-
-
-.DonateInfo{
-    position: relative;
-    font-size: x-large;
-    background-color: skyblue;
-    width: 210px;
-    border-radius: 10px;
-
 }

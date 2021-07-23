@@ -6,7 +6,7 @@ import battle01 from '../images/GameData/system/system01_battle01.jpg';
 class Gamesystem extends Component {
   render() {
     return (
-        <div>
+        <div className="box">
           <div className ="titleListText">系統</div>
           <h2>戰鬥系統</h2>
           <h2>相剋循環 (力量 → 技巧 → 速度 → 力量)</h2>

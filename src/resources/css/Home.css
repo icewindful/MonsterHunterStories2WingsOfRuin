@@ -2,8 +2,9 @@
 
   font-size: 30px;
   position: relative;
-  left: 25px;
-  top:  25px;
+  left: 5px;
+  top:  0px;
+  bottom: 15px;
   width: 120px;
   height: auto;
   border-style: outset;
@@ -33,4 +34,10 @@
 .DonateImg{
   position: relative;
   left: 5px;
+}
+
+.homebox{
+  position: relative;
+  left: 300px;
+  background-color: skyblue;
 }

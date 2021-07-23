@@ -1,6 +1,6 @@
 .InfoText{
   position: relative;
-  left: 30px;
+  left: 630px;
   top: 50px;
 }
 
@@ -8,17 +8,18 @@
   position: relative;
   border-style:double;
   border-color:gray;
-  width: 100px;
+  width: 12.5%;
   text-align: left;
+  left: 280px;
 }
 
 .MonsterInfoBoxIcon{
   position: relative;
   border-style:none;
   border-color:gray;
-  width: 100px;
+  width: 12.5%;
   text-align: center;
-  
+  left: 280px;
 }
 
 .MonsterStatus{
@@ -36,8 +37,7 @@
   position: relative;
   border-style:double;
   border-color:gray;
-  width: 100px;
-
+  width: 12.5%;
 }
 
 .PartBox{
