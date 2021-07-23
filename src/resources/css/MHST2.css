@@ -21,6 +21,7 @@
 
 .navbar-nav{
     position: relative;
+    
     width: auto;
 }
 
@@ -31,9 +32,10 @@
 .navbarVarSetting{
     /* background-color: blue; */
     position: relative;
-    left: 4%;
-    top: 27px;
-
+    left: 0px;
+    top:10%;
+    background-image: url("../images/SceneMaterial/bg_header.jpg");
+    background-repeat:repeat;
     width: auto;
 
     /* NOTE: 網頁水平卷軸出現問題 */
@@ -60,7 +62,10 @@
 }
 
 .trEnvVar{
+    position: relative;
     width: auto;
+    left: 2%;
+    top: 100%;
 }
 
 .thEnvVarhide{

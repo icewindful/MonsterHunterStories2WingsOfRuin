@@ -17,7 +17,7 @@
   background-color: skyblue;
 }
 
-@media screen only screen and (min-width: 600px){
+@media screen (min-width: 600px){
   background-color: gold;
 }
 
