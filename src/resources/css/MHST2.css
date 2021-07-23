@@ -2,10 +2,10 @@
 
 .headerVar{
     position: absolute;
-    left: 0px;
-    right: 0;
+    left: 0px;    
+    right: 0px;
     top: 0px;
-    bottom: 0;
+    height: 10%;
     /* background-color: silver; */
     background-image: url("../images/SceneMaterial/bg_header.jpg");
     background-repeat:repeat;
@@ -154,9 +154,9 @@
     position: absolute;
     width: auto;
     left: 0px;
-    right: 0;
-    top: 70px;
-    bottom: 0;
+    right: 0px;
+    bottom: 0px;
+    top: 10%;
     /* background-color: Gold;- */
     background-image: url("../images/SceneMaterial/bg_game.jpg");
     background-repeat:repeat;
@@ -179,13 +179,14 @@
     visibility: hidden;
 }
 
-@media screen only screen and (min-width: 256px){
+@media screen only screen and (min-width: 600px){
     .nav-link {
         font-size : small;
     }
 
     .MHS2Logo{
+        visibility: hidden;
         width: 50px;
-        width: 30px;
+        height: 30px;
     }
 }

@@ -34,7 +34,7 @@ class App extends Component {
       <Router>
           <div className = "indexEnvSetting">
           
-            <header className = "headerVar" ><img className="MHS2Logo" src={MHS2Logo} alt="TitleLogo" />Monster Hunter Stories2 Wings Of Ruin 攻略</header>
+            <header className = "headerVar" ><img className="MHS2Logo" src={MHS2Logo} alt="TitleLogo" />Monster Hunter Stories2</header>
           
             <nav className="navbarVarSetting">
 
