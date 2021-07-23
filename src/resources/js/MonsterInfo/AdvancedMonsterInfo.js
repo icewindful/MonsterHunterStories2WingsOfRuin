@@ -277,11 +277,11 @@ const MonsterActackMode = ({mode}) =>{
 
   switch (mode) {
     case 1:
-      return (<div className="MonsterInfoBoxIcon"><img width="30px" src={StrengthIcon} alt="StrengthIcon"/></div>);
+      return (<img width="30px" src={StrengthIcon} alt="StrengthIcon"/>);
     case 2:  
-      return (<div className="MonsterInfoBoxIcon"><img width="30px" src={SkillIcon} alt="SkillIcon"/></div>);
+      return (<img width="30px" src={SkillIcon} alt="SkillIcon"/>);
     case 3:  
-      return (<div className="MonsterInfoBoxIcon"><img width="30px" src={SpeedIcon} alt="SpeedIcon"/></div>);
+      return (<img width="30px" src={SpeedIcon} alt="SpeedIcon"/>);
   
     default:
       return null;
@@ -317,14 +317,15 @@ export const AdvancedMonsterInfo = () => {
               <th className="MonsterInfoBox">【攻擊屬性】<br></br><ElementLoadIcon element={_item.AttackIcon} /> <text className="MonsterStatus">{_item.Attack}</text></th>
               <th className="MonsterInfoBox">【防禦屬性】<br></br><ElementLoadIcon element={_item.DefenseIcon} /> <text className="MonsterStatus">{_item.Defense}</text></th>
               <th className="MonsterInfoBox">【弱點屬性】<br></br><ElementLoadIcon element={_item.WeaknessIcon} /> <text className="MonsterStatus">{_item.Weakness}</text></th>
-              <th className="MonsterInfoBox">【歸巢條件】<br></br>{_item.GoHomeMethod}</th>
-              <th className="MonsterInfoBox">【出現地點】<br></br>{_item.location}</th>
+
             </tr>
             <tr>
               <th className="MonsterInfoBox">【模式01】<br></br><text className="MonsterInfoBoxName">{_item.ModeNote01}</text></th>
               <th className="MonsterInfoBox">【模式02】<br></br><text className="MonsterInfoBoxName">{_item.ModeNote02}</text></th> 
               <th className="MonsterInfoBox">【模式03】<br></br><text className="MonsterInfoBoxName">{_item.ModeNote03}</text></th> 
               <th className="MonsterInfoBox">【模式04】<br></br><text className="MonsterInfoBoxName">{_item.ModeNote04}</text></th> 
+              <th className="MonsterInfoBox">【歸巢條件】<br></br>{_item.GoHomeMethod}</th>
+              <th className="MonsterInfoBox">【出現地點】<br></br>{_item.location}</th>
             </tr>
             <tr>
               <th className="MonsterInfoBox"><MonsterActackMode mode={_item.Mode01} /></th> 

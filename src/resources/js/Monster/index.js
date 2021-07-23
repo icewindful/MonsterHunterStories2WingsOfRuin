@@ -76,7 +76,7 @@ const Monster = () => {
     const [selectedMenu, setSelectedMenu] = useState(null);
     return (
         
-        <div className="box">
+        <div className="followbox">
   
             <a href="# " className = "OpenAllMenu" onClick={openMenuFactory(999, setSelectedMenu)}>展開全部</a>
             <ul className="menu">

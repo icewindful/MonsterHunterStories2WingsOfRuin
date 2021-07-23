@@ -1,3 +1,5 @@
+
+
 .headerVar{
     position: absolute;
     left: 0px;
@@ -22,13 +24,17 @@
     width: 200px;
 }
 
+.tbodyEnvVar{
+    width: auto;
+}
+
 .navbarVarSetting{
     /* background-color: blue; */
-    position: absolute;
-    left: 50px;
-    top: 40px;
+    position: relative;
+    left: 4%;
+    top: 27px;
 
-    width: 1000px;
+    width: auto;
 
     /* NOTE: 網頁水平卷軸出現問題 */
     overflow-x: hidden;
@@ -44,27 +50,32 @@
 .indexEnvSetting{
     overflow-x: auto;
     overflow-y: auto;
+    width: auto;
+    height: auto;
 }
 
 .tableEnvVar{
-
-    border-spacing: 20px 0px;
     text-align: center;
+    width: auto;
 }
 
-
+.trEnvVar{
+    width: auto;
+}
 
 .thEnvVarhide{
     visibility: hidden;
 }
 
 .thEnvVar{
+    font-size: large;
+    width: auto;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
     padding: 1px 1px 1px 1px;
     position: relative;
-    left: 150px;
+    left: 35px;
 }
 
 .thEnvVar:hover,
@@ -76,7 +87,9 @@
     left: auto;
 }
 
+
 .sectionVar{
+    visibility: hidden; /* close left list */
     position: relative;
     left: 0px;
     right: 0;
@@ -128,6 +141,8 @@
     background-color: white;
     /* margin-top: 10px;
     margin-bottom: 10px;*/
+    font-size:large;
+    width: auto;
     border-radius: 5px;
     padding: 1px 1px 1px 1px; 
 }
@@ -162,4 +177,10 @@
 
 .Hiden{
     visibility: hidden;
+}
+
+@media screen only screen and (min-width: 256px){
+    .nav-link {
+        font-size : x-large;
+    }
 }

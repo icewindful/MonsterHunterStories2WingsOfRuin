@@ -9,7 +9,7 @@
   border-style:double;
   border-color:gray;
   width: 12.5%;
-  text-align: left;
+  text-align: center;
   left: 50px;
 }
 
@@ -23,12 +23,12 @@
 }
 
 .MonsterStatus{
-  text-align: top,center;
+  text-align: center;
   font-size: x-large;
 }
 
 .MonsterInfoBoxName{
-  text-align: top;
+  text-align: center;
   font-size: x-large;
   color:blue;
 }
