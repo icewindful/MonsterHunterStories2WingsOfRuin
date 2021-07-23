@@ -21,7 +21,7 @@
 
 .navbar-nav{
     position: relative;
-    width: 200px;
+    width: auto;
 }
 
 .tbodyEnvVar{
@@ -167,7 +167,7 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    left: 30px;
+    left: 1%;
     top: 0px;
 }
 
@@ -181,6 +181,11 @@
 
 @media screen only screen and (min-width: 256px){
     .nav-link {
-        font-size : x-large;
+        font-size : small;
+    }
+
+    .MHS2Logo{
+        width: 50px;
+        width: 30px;
     }
 }

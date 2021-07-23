@@ -1,8 +1,4 @@
-.InfoText{
-  position: absolute;
-  left: 50px;
-  top: 50px;
-}
+
 
 .MonsterInfoBox{
   position: relative;
@@ -10,7 +6,6 @@
   border-color:gray;
   width: 12.5%;
   text-align: center;
-  left: 50px;
 }
 
 .MonsterInfoBoxIcon{
@@ -19,7 +14,6 @@
   border-color:gray;
   width: 12.5%;
   text-align: center;
-  left: 50px;
 }
 
 .MonsterStatus{
