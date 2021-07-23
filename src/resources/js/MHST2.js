@@ -23,6 +23,34 @@ import MHS2Headerbar from '../images/SceneMaterial/bg_header.jpg';
 <img className="MHS2Headerbar" src={MHS2Headerbar} alt="MHS2Headerbar" />
 */
 
+/* // on tableEnvVar beside
+           <section className="sectionVar">
+              <ul className="navbar-nav mr-auto">
+              <iframe
+                src="https://player.twitch.tv/?channel=icewindful&parent=localhost&autoplay=false"
+                title="icewindful Channel"
+                height="180"
+                width="270"
+                frameborder="1"
+                scrolling="no"
+                allowfullscreen="no"　className="icewindfulChannel">
+              </iframe>
+                <div className="listBarVar"><Link to={'/'} className="sectionnav-link"> 更新內容 </Link></div>
+                <div className="listBarVar" ><Link to={'/MonsterInfo'} className="sectionnav-link"> 魔物資訊(弱點) </Link></div>
+                <div className="listBarVar" ><Link to={'/Monster'} className="sectionnav-link"> 隨行獸 </Link></div>
+                <div className="listBarVar"><Link to={'/Gamesystem'} className="sectionnav-link"> 遊戲系統 </Link></div>
+                <div className="listBarVar"><Link to={'/FastEgglist'} className="sectionnav-link"> 速查蛋種圖 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Mission'} className="sectionnav-link"> 任務 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Weapon'} className="sectionnav-link"> 武器 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Equipment'} className="sectionnav-link"> 防具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Item'} className="sectionnav-link"> 道具 </Link></div>
+                <div className="listBarVarhide"><Link to={'/Maps'} className="sectionnav-link"> 地圖 </Link></div>
+                <div className="DonateInfo">本站Opay贊助資訊</div>
+                <a href="https://qr.opay.tw/gXLrK"><img src="https://payment.opay.tw/Upload/Broadcaster/1552349/QRcode/QRCode_43D787DBA4BB59852F9A39EEE99DECB8.png" alt="OpayQRcode" target="_blank" /></a>
+              </ul>
+            </section> 
+*/
+
 class App extends Component {
     render() {
       return (
@@ -51,31 +79,7 @@ class App extends Component {
             </table>
             </nav>
 
-            <section className="sectionVar">
-              <ul className="navbar-nav mr-auto">
-              <iframe
-                src="https://player.twitch.tv/?channel=icewindful&parent=localhost&autoplay=false"
-                title="icewindful Channel"
-                height="180"
-                width="270"
-                frameborder="1"
-                scrolling="no"
-                allowfullscreen="no"　className="icewindfulChannel">
-              </iframe>
-                <div className="listBarVar"><Link to={'/'} className="sectionnav-link"> 更新內容 </Link></div>
-                <div className="listBarVar" ><Link to={'/MonsterInfo'} className="sectionnav-link"> 魔物資訊(弱點) </Link></div>
-                <div className="listBarVar" ><Link to={'/Monster'} className="sectionnav-link"> 隨行獸 </Link></div>
-                <div className="listBarVar"><Link to={'/Gamesystem'} className="sectionnav-link"> 遊戲系統 </Link></div>
-                <div className="listBarVar"><Link to={'/FastEgglist'} className="sectionnav-link"> 速查蛋種圖 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Mission'} className="sectionnav-link"> 任務 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Weapon'} className="sectionnav-link"> 武器 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Equipment'} className="sectionnav-link"> 防具 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Item'} className="sectionnav-link"> 道具 </Link></div>
-                <div className="listBarVarhide"><Link to={'/Maps'} className="sectionnav-link"> 地圖 </Link></div>
-              </ul>
-            </section>
-
-            <aside className="asideVar">
+             <aside className="asideVar">
               <Switch>
                   <Route exact path='/' component={Home} />
                   <Route path='/MonsterInfo' component={MonsterInfo} />

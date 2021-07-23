@@ -2,8 +2,8 @@
 
   font-size: 30px;
   position: relative;
-  left: 10px;
-  top:  0px;
+  left: 25px;
+  top:  25px;
   width: 120px;
   height: auto;
   border-style: outset;
@@ -14,4 +14,23 @@
 .HomeListText.active{
   border-style: inset;
   background-color: skyblue;
+}
+
+.UpdateNote{
+  font-size: 30px;
+  position: relative;
+  left: 25px;
+  top:  30px;
+}
+
+.DonateInfo{
+  position: relative;
+  left: 25px;
+  top:  30px;
+  text-align: center;
+}
+
+.DonateImg{
+  position: relative;
+  left: 5px;
 }
