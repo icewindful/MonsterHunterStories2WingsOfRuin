@@ -14,7 +14,7 @@ import FastEgglist from './FastEggList';
 import Gamesystem from './Gamesystem';
 import MonsterInfo from './MonsterInfo'
 
-import MHS2Logo from '../images/Logo/header_titlelogo_ja.png';
+/* import MHS2Logo from '../images/Logo/header_titlelogo_ja.png'; */
 /*
 import story_character07 from '../images/character/story/index_character07.jpg'
 */
