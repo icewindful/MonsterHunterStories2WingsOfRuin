@@ -1,12 +1,13 @@
 .box{
-  position: absolute;
-  left: 4%px;
-  top: 20px;
+  position: relative;
+  left: auto;
+  width: auto;
+  height: auto;
 }
 
 .selectButtonN{
   position: relative;
-  left: 20%;
+  left: 7%;
   top:20px;
   border-style: outset;
   font-size: large;
@@ -20,7 +21,7 @@
 
 .selectButton{
   position: relative;
-  left: 20%;
+  left: 7%;
   top:20px;
   border-style: outset;
   font-size: large;
