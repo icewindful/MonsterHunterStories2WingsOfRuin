@@ -42,6 +42,6 @@
 
 .homebox{
   position: relative;
-  left: 2%;
-  background-color: skyblue;
+
+  /* background-color: skyblue; */
 }

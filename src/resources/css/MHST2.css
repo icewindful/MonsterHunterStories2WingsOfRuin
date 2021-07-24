@@ -76,6 +76,8 @@
     overflow-y: auto;
     width: auto;
     height: auto;
+    overflow-y: hidden;
+    bottom: 0px;
 }
 
 .tableEnvVar{
@@ -91,10 +93,10 @@
     position: relative;
     left: 2%;
     top: 0%;
-    right: 0%;
-    bottom: 0px;
+    right: 0;
     font-size: auto;
     width: auto;
+    height: auto;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
@@ -110,6 +112,18 @@
     position: relative;
     left: auto;
 }
+
+.nav-link{
+    background-color: white;
+    /* margin-top: 10px;
+    margin-bottom: 10px;*/
+    font-size:auto;
+    width: 80px;
+    height: 23px;
+    border-radius: 5px;
+    padding: 1px 1px 1px 1px; 
+}
+
 
 
 .sectionVar{
@@ -161,15 +175,6 @@
 }
 
 
-.nav-link{
-    background-color: white;
-    /* margin-top: 10px;
-    margin-bottom: 10px;*/
-    font-size:auto;
-    width: 100%;
-    border-radius: 5px;
-    padding: 1px 1px 1px 1px; 
-}
 
 
 

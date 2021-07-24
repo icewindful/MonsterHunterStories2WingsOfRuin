@@ -47,6 +47,11 @@
 }
 
 
+.LevelSelectBTN{
+  position:sticky;
+
+}
+
 /* asign detail style*/
 /*
 .selectButtonN.off.test {

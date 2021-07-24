@@ -68,7 +68,7 @@ const MonsterInfo = () => {
 
     <Router>
       <div >
-        <tbody>
+        <tbody className="LevelSelectBTN">
           <th className={(selectedBTN===0) ? `selectButton selectButtonN` :  `selectButton` } onClick={() => { setSelectedBTN(0) }} ><Link to={'/MonsterInfo'} > 普通 </Link>  </th>
           <th className={(selectedBTN===1) ? `selectButton selectButtonA` :  `selectButton` } onClick={() => { setSelectedBTN(1) }} ><Link to={'/AdvancedMonsterInfo'} > 進階 </Link>  </th>
           <th className={(selectedBTN===2) ? `selectButton selectButtonB` :  `selectButton` } onClick={() => { setSelectedBTN(2) }} ><Link to={'/BossMonsterInfo'} > 頭目 </Link>  </th>
