@@ -54,21 +54,23 @@ class App extends Component {
       return (
       <Router>
           <div className = "indexEnvSetting">
-          
+            <div className="headerbox">
             <header className = "headerVar" >Monster Hunter Stories2</header>
-          
-                  <tr className = "trEnvVar">
-                    <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> 更新內容 </Link> </th> 
-                    <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link"> 魔物資訊(弱點) </Link></th>
-                    <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
-                    <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
-                    <th className = "thEnvVarhide"> <Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></th>
-                    <th className = "thEnvVarhide"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
-                    <th className = "thEnvVarhide"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
-                    <th className = "thEnvVarhide"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
-                    <th className = "thEnvVarhide"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
-                    <th className = "thEnvVarhide"> <Link to={'/Maps'} className="nav-link"> 地圖 </Link></th>
-                  </tr>
+            <header className = "headerBTNVar">
+              <tr className = "trEnvVar">
+                <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> 更新內容 </Link> </th> 
+                <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link"> 魔物資訊(弱點) </Link></th>
+                <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
+                <th className = "thEnvVarhide"> <Link to={'/Gamesystem'} className="nav-link"> 遊戲系統 </Link></th>
+                <th className = "thEnvVarhide"> <Link to={'/Mission'} className="nav-link"> 任務 </Link> </th> 
+                <th className = "thEnvVarhide"> <Link to={'/Weapon'} className="nav-link"> 武器 </Link> </th> 
+                <th className = "thEnvVarhide"> <Link to={'/Equipment'} className="nav-link"> 防具 </Link></th>
+                <th className = "thEnvVarhide"> <Link to={'/Item'} className="nav-link"> 道具 </Link> </th> 
+                <th className = "thEnvVarhide"> <Link to={'/Maps'} className="nav-link"> 地圖 </Link></th>
+              </tr>
+            </header>
+            </div>
 
 
             <aside className="asideVar">
