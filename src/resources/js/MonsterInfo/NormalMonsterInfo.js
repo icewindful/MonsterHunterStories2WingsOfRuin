@@ -51,7 +51,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
       return null;
     case 0:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -61,7 +61,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 1:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -71,7 +71,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 2:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -81,7 +81,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 3:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -91,7 +91,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
       
     case 4:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -101,7 +101,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 5:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -111,7 +111,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 6:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -121,7 +121,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
       
     case 7:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -131,7 +131,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 8:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -141,7 +141,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 20:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -151,7 +151,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 21:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -161,7 +161,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 22:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
@@ -171,7 +171,7 @@ const MosterPart = ({Partcount, Slash, Blunt, Pierce}) => {
 
     case 23:
       return(
-        <tr className="MonsterInfoBoxIcon">
+        <tr className="MonsterInfoBox">
           <th className="MonsterInfoBoxPartWeakness"><PartLoadIcon part={Partcount}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessSlashLoadIcon status={Slash}/></th>
           <th className="MonsterInfoBoxPartWeakness"><WeaknessBluntLoadIcon status={Blunt}/></th>
