@@ -118,10 +118,33 @@
     /* margin-top: 10px;
     margin-bottom: 10px;*/
     font-size:auto;
-    width: 80px;
+    width: max-content;
     height: 23px;
     border-radius: 5px;
     padding: 1px 1px 1px 1px; 
+}
+
+@media screen and (min-width: 768px){
+    .nav-link{
+        background-color: white;
+        /* margin-top: 10px;
+        margin-bottom: 10px;*/
+        font-size:xx-large;
+        width: max-content;
+        height: auto;
+        border-radius: 5px;
+        padding: 1px 1px 1px 1px; 
+    }
+
+    .headerBTNVar{
+        position: relative;
+        left: auto;    
+        right: 0px;
+        top: 30%;
+        height: 8%;
+        width: auto;
+        font-size: large;
+    }
 }
 
 
@@ -206,16 +229,4 @@
 
 .Hiden{
     visibility: hidden;
-}
-
-@media screen only screen and (min-width: 600px){
-    .nav-link {
-        font-size : small;
-    }
-
-    .MHS2Logo{
-        visibility: hidden;
-        width: 50px;
-        height: 30px;
-    }
 }
