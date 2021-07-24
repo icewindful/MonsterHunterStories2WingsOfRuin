@@ -314,7 +314,7 @@ export const AdvancedMonsterInfo = () => {
               <th className="MonsterInfoBox">No.{_item.MN}<br></br><img width="80" src={`/MonsterIcon/${_item.MN}.png`} alt={_item.MN} /></th>
               <th className="MonsterInfoBox">【魔物名稱】<br></br><text className="MonsterInfoBoxName">{_item.Name}</text></th>
               <th className="MonsterInfoBox">【歸巢條件】<br></br>{_item.GoHomeMethod}</th>
-              <th className="MonsterInfoBox">【出現地點】<br></br>{_item.location}</th>\
+              <th className="MonsterInfoBox">【出現地點】<br></br>{_item.location}</th>
             </tr>
             <tr>
               <th className="MonsterInfoBox">【血量屬性】<br></br><text className="MonsterStatus">{_item.HP}</text></th>

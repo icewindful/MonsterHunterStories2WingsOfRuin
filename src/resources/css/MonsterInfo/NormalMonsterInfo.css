@@ -1,4 +1,3 @@
-
 .MonsterInfoBox{
   position: relative;
   border-style:double;
@@ -7,17 +6,9 @@
   text-align: center;
 }
 
-.MonsterInfoBoxIcon{
-  position: relative;
-  border-style:none;
-  border-color:gray;
-  text-align: center;
-}
-
 .MonsterStatus{
   text-align: center;
   font-size: x-large;
-  width: 25%;
 }
 
 .MonsterInfoBoxName{
@@ -30,10 +21,25 @@
   position: relative;
   border-style:double;
   border-color:gray;
-  width: 25%;
+  width: 280px;
 }
 
 .PartBox{
   position:relative;
   background-color:royalblue;
+}
+
+
+.NormalInfoBox{
+  position: relative;
+  left: auto;
+  right: 0;
+  width: auto;
+  bottom: 0;
+
+}
+
+.InfoBox{
+  position: relative;
+  width: 25%;
 }
