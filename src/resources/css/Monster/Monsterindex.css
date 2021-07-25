@@ -1,0 +1,82 @@
+body{
+    font-family: "Noto Sans","Microsoft JhengHei";
+    color:#545454;
+  }
+  a{
+    text-decoration:none;
+    display:block;
+    width: 120px;
+  }
+  .box{
+    position: relative;
+    left: -50px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .menu {
+    list-style-type: none;
+    width: 360px;
+    position: relative;
+    left: -50px;
+  }
+  .menu>li>a{
+    color:#545454;
+    padding:0.5em;
+    border:1px solid #545454;
+    width: 120px;
+    margin: 0.0px 2px 0.0px 2px;
+    font-size: 18px;
+  }
+  .menu>li>a:hover,
+  .menu>li>a.active{
+    background: gold;
+  }
+  .inmenu{
+    display:none;
+  }
+  .inmenu>li{
+    padding:0.5em;
+  }
+
+  @media screen and (min-width: 768px){
+    .menu {
+      list-style-type: none;
+      width: 960px;
+      position: relative;
+      left: -50px;
+    }
+  }
+
+
+.OpenAllMenu{
+  position: relative;
+  font-size: large;
+  color:blue;
+  text-shadow: 0px 0px 10px gold;
+  border-style:outset;
+  border-color:gray;
+
+  left:   0px;
+  right: 20px;
+  width: 80px;
+  text-align: center;
+  /* background-color: blue; */
+  
+}
+
+.icewindfulChannel{
+  position: relative;
+  left:-30px;
+  top:0px;
+  /*
+  height: 50%;
+  width: 50%;
+  */
+}
+
+.followbox{
+  position: relative;
+  left: 0;
+  top: 20px;
+  width: 480px;
+}

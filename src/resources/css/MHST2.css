@@ -1,11 +1,9 @@
-
-
 .headerVar{
     position: relative;
     left: auto;    
     right: 0px;
     top: 0px;
-    height: 8%;
+    height: 0px;
     /* background-color: silver; */
     /*
     background-image: url("../images/SceneMaterial/bg_header.jpg");
@@ -14,7 +12,7 @@
     color: burlywood;
     text-shadow: greenyellow 10px;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 /*
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
@@ -23,12 +21,73 @@
 
 .headerBTNVar{
     position: relative;
-    left: auto;    
+    left: 0px;    
     right: 0px;
-    top: 50%;
-    height: 8%;
+    top: 40px;
+    bottom: 0px;
+    height: 30px;
     width: auto;
     font-size: large;
+    display: flex;
+    justify-content: left; 
+    align-items: left,baseline; 
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .headerBTNVar.moblie{
+        position: relative;
+        top: 35px;
+        height: 50px;
+    }
+
+    .headerBTNVar{
+        position: relative;
+        left: 0px;    
+        right: 0px;
+        top: 40px;
+        bottom: 0px;
+        height: 30px;
+        width: auto;
+        font-size: large;
+        display: flex;
+        justify-content: center; 
+        align-items: center,baseline; 
+        overflow-x: auto;
+    }
+
+    .headerbox{
+        position: absolute;
+        left: 0px;    
+        right: 0px;
+        top: 0%;
+        bottom: 90%;
+        background-image: url("../images/SceneMaterial/bg_header.jpg");
+        background-repeat:repeat;
+        
+    }
+
+    .headerVar{
+        position: relative;
+        left: auto;    
+        right: 0px;
+        top: 0px;
+        height: 0px;
+        /* background-color: silver; */
+        /*
+        background-image: url("../images/SceneMaterial/bg_header.jpg");
+        background-repeat:repeat;
+        */
+        color: burlywood;
+        text-shadow: greenyellow 10px;
+        text-align: center;
+        font-size: x-large;
+    /*
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+    */
+    }
 }
 
 .headerbox{
@@ -39,6 +98,7 @@
     bottom: 90%;
     background-image: url("../images/SceneMaterial/bg_header.jpg");
     background-repeat:repeat;
+    
 }
 
 .navbar-nav{
@@ -73,11 +133,14 @@
 
 .indexEnvSetting{
     overflow-x: auto;
-    overflow-y: auto;
+    position:relative;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
     width: auto;
     height: auto;
     overflow-y: hidden;
-    bottom: 0px;
 }
 
 .tableEnvVar{
@@ -89,19 +152,23 @@
     visibility: hidden;
 }
 
+.trEnvVar{
+    position: relative;
+    height: 60px;
+}
+
 .thEnvVar{
     position: relative;
     left: 2%;
     top: 0%;
-    right: 0;
     font-size: auto;
     width: auto;
     height: auto;
     border-style: solid;
     border-color: rgb(5, 157, 245);
     border-radius: 10px;
-    padding: 1px 1px 1px 1px;
-    position: relative;
+    /* padding: 1px 1px 1px 1px;  */
+
 }
 
 .thEnvVar:hover,
@@ -124,6 +191,7 @@
     padding: 1px 1px 1px 1px; 
 }
 
+/* over 768 pixel setting*/
 @media screen and (min-width: 768px){
     .nav-link{
         background-color: white;
@@ -145,16 +213,39 @@
         width: auto;
         font-size: large;
     }
+
+    .trEnvVar{
+        position: relative;
+        border-spacing: 20px 0px;
+        max-width: auto;
+    }
+
+    .asideVar {
+        overflow: auto;
+        position: absolute;
+        width: auto;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 10%;
+        /* background-color: Gold;- */
+        background-image: url("../images/SceneMaterial/bg_game.jpg");
+        background-repeat:repeat;
+        display: flex;
+        justify-content: center; 
+        align-items: center,baseline; 
+    }
+
 }
 
 
 
 .sectionVar{
-    visibility: hidden; /* close left list */
+    /* visibility: hidden; /* close left list */
     position: relative;
     left: 0px;
     right: 0;
-    top: 150px;
+    top: 120px;
     bottom: 0;
     width: 250px;
     height: 900px;
@@ -170,6 +261,32 @@
     /* margin-top: 10px;
     margin-bottom: 10px;*/
 
+}
+
+@media screen and (max-width: 1024px){
+    .sectionVar{
+        visibility: hidden; /* close left list */
+        position: relative;
+        left: 0px;
+        right: 0;
+        top: 120px;
+        bottom: 0;
+        width: 250px;
+        height: 900px;
+        background-color: skyblue;
+        /*
+        background-image: url("../images/character/story/index_character07.jpg");
+        background-size: 88%;
+        */
+        /*
+        background-color: red;
+        background-repeat:repeat;
+        */
+    
+        /* margin-top: 10px;
+        margin-bottom: 10px;*/
+    
+    }
 }
 
 .listBarVar{
@@ -213,6 +330,8 @@
     background-image: url("../images/SceneMaterial/bg_game.jpg");
     background-repeat:repeat;
 }
+
+
 
 
 .MHS2Logo {

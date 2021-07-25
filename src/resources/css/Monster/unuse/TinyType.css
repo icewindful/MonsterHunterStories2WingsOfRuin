@@ -35,3 +35,14 @@
 }
 
 
+.monsterImgSize{
+  width: 150px;
+}
+
+
+@media screen and (min-width: 768px){
+  .monsterImgSize{
+    width: 220px;
+  }
+}
+

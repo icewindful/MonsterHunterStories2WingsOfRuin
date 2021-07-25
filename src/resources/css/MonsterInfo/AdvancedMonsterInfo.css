@@ -1,3 +1,9 @@
+.InfoText{
+  position: relative;
+  left: 0px;
+  top: 50px;
+}
+
 .MonsterInfoBox{
   position: relative;
   border-style:double;

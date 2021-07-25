@@ -17,10 +17,6 @@
   background-color: skyblue;
 }
 
-@media screen (min-width: 600px){
-  background-color: gold;
-}
-
 .UpdateNote{
   font-size: 30px;
   position: relative;
@@ -42,6 +38,7 @@
 
 .homebox{
   position: relative;
+  width: 480px;
 
   /* background-color: skyblue; */
 }

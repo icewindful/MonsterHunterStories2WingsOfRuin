@@ -15,7 +15,11 @@ import TemnoceranType from './TemnoceranType';
 import ElderDragonType from './ElderDragonType';
 import SpecialIndividualType from './SpecialIndividualType';
 
-import '../../css/Monster.css'
+/* import MonsterFollowType from 'MonsterFollowType'; */
+
+/* import '../../css/Monster.css' */
+import '../../../resources/css/Monster/Monsterindex.css';
+
 
 const openMenuFactory = (menuId, setSelectedMenu) => {
   return () => {

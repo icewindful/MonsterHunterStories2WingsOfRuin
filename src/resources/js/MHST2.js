@@ -51,6 +51,14 @@ import MHS2Headerbar from '../images/SceneMaterial/bg_header.jpg';
 
 */
 
+const BackLeftTop = () =>{
+  const dom = document.querySelector('#root > div > aside');
+  if (dom) {
+    dom.scrollTop = 0;
+    dom.scrollLeft = 0;
+  }
+};
+
 class App extends Component {
     render() {
       return (
@@ -58,12 +66,12 @@ class App extends Component {
           <div className = "indexEnvSetting">
             <div className="headerbox">
             <header className = "headerVar" >Monster Hunter Stories2</header>
-            <header className = "headerBTNVar">
+            <header className = "headerBTNVar moblie">
               <tr className = "trEnvVar">
-                <th className = "thEnvVar"> <Link to={'/'} className="nav-link"> 更新內容 </Link> </th> 
-                <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link"> 魔物資訊 </Link></th>
-                <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link"> 隨行獸 </Link></th>
-                <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link"> 速查蛋種圖 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/'} className="nav-link" onClick={() => { BackLeftTop()}}> 更新內容 </Link> </th> 
+                <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link" onClick={() => { BackLeftTop()}}> 魔物資訊 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link" onClick={() => { BackLeftTop()}}> 速查蛋種圖 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link" onClick={() => { BackLeftTop()}}> 隨行獸 </Link></th>
               </tr>
             </header>
             </div>
@@ -96,7 +104,7 @@ class App extends Component {
                 allowfullscreen="no"　className="icewindfulChannel">
               </iframe>
                 <div className="listBarVar"><Link to={'/'} className="sectionnav-link"> 更新內容 </Link></div>
-                <div className="listBarVar" ><Link to={'/MonsterInfo'} className="sectionnav-link"> 魔物資訊(弱點) </Link></div>
+                <div className="listBarVar" ><Link to={'/MonsterInfo'} className="sectionnav-link"> 魔物資訊 </Link></div>
                 <div className="listBarVar" ><Link to={'/Monster'} className="sectionnav-link"> 隨行獸 </Link></div>
                 <div className="listBarVar"><Link to={'/FastEgglist'} className="sectionnav-link"> 速查蛋種圖 </Link></div>
                 <div className="listBarVarhide"><Link to={'/Gamesystem'} className="sectionnav-link"> 遊戲系統 </Link></div>

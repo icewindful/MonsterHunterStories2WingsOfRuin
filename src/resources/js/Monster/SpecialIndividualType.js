@@ -10,7 +10,7 @@ import ThunderIcon from '../../IconStatus/element/04_Thunder.png';
 import IceIcon from '../../IconStatus/element/05_Ice.png';
 import DragonIcon from '../../IconStatus/element/06_Dragon.png';
 
-import '../../../resources/css/SpecialIndividualType.css';
+import '../../../resources/css/Monster/MonsterFollowType.css';
 
 // const Span = styled.span`
 //   display: inline-block;
@@ -61,38 +61,29 @@ export const SpecialIndividualType = () => {
             <li className="monsterInfoBox">
               <tr className = "monsterTable">
                 <th className = "monsterbox01"><span className="monsterTitle">魔物名稱</span> <br></br>{ item.name }</th>
-                <th className = "monsterbox02"><span className="monsterTitle">魔物地區</span> <br></br>{ item.region }</th>
-                <th className = "monsterbox03"><span className="monsterTitle">魔物特性【{ item.genere }】</span> <br></br><BattleIcon battlemode={item['attackaction']}/></th>
-                <th className = "monsterbox04"><span className="monsterTitle">成長型類型</span> <br></br>{ item['Growth type'] }</th>
+                <th className = "monsterbox02"><span className="monsterTitle">成長型類型</span> <br></br>{ item['Growth type'] }</th>
+                <th className = "monsterbox03"><span className="monsterTitle">歸巢特性</span> <br></br> {item['Habitat-Retreat']}</th>
               </tr> 
-
-              <tr className = "monsterTable"></tr> 
-              <tr className = "monsterTable">
-                <th className = "monsterbox01"><span className="monsterTitle">羈絆招式</span> <br></br> { item.skill }{item.skillDescription}</th>
-                <th className = "monsterbox02"><span className="monsterTitle">招式說明</span> <br></br> { item.skillNote}</th> 
-                <th className = "monsterbox03"><span className="monsterTitle">招式影片</span> <br></br> <a href={item.skillhyperlink} target="_blank" rel="noreferrer">{ item.skill }<br></br>↑影片連結</a><br></br> </th>
-                <th className = "monsterbox04"><span className="monsterTitle">歸巢特性</span> <br></br> {item['Habitat-Retreat']}</th>
-              </tr>
-
-              <tr className = "monsterTable">
+              <tr>
                 <th className = "monsterbox01" >
-                  <img src={`/monsterImage/${item.pic02}`} alt={item.pic02} />
-                  </th>
-                <th className = "monsterbox02">
-                  <img width="220" src={`/monsterImage/${item.pic00}`} alt={item.pic00} />
+                <img className="monsterImgSize" src={`/monsterImage/${item.pic02}`} alt={item.pic02 } />
                 </th>
-                <th className = "monsterbox03">
-                  <img width="220" src={`/monsterImage/${item.pic01}`} alt={item.pic01} />
-                </th>
-                <th className = "monsterbox04">
-                  <span className="monsterTitle">固有基因</span><br></br>{item['Inherent-gene']}<br></br>
-                  <span className="monsterTitle">騎乘技能</span><br></br>{item['rider-skill']}</th>
+                <th className = "monsterbox02"><span className="monsterTitle">魔物特性【{ item.genere }】</span> <br></br><BattleIcon battlemode={item['attackaction']}/></th>
+                <th className = "monsterbox03"><span className="monsterTitle">魔物地區</span> <br></br>{ item.region }</th> 
+                
               </tr>
-
               <tr className = "monsterTable">
-                {/* <th className = "monsterbox">||功能||嵌入影片#</th> */}
-                <th className="monsterbox01" ></th>
-                <th className="monsterbox02">
+
+                <th className = "monsterbox01">
+                  <img className="monsterImgSize" src={`/monsterImage/${item.pic01}`} alt={item.pic01} />
+                </th>
+
+                <th className = "monsterbox02">
+                  <span className="monsterTitle">固有基因</span><br></br>{item['Inherent-gene']}<br></br>
+                  <span className="monsterTitle">騎乘技能</span><br></br>{item['rider-skill']}
+                </th>
+
+                <th className="monsterbox03">
                   <tr><span className="monsterTitle">基礎能力 LV99</span></tr>
                   <tr>體力上限 [ {item['baseHP-Max']} ]</tr>
                   <tr><LevelCompoent level={item['baseHp-level']} /></tr>
@@ -103,7 +94,14 @@ export const SpecialIndividualType = () => {
                   <tr>會心率</tr>
                   <tr><LevelCompoent level={item['baseCrit-level']} /></tr>
                 </th>
-                <th className="monsterbox03">
+              </tr>
+
+              <tr>
+                <th className = "monsterbox01">
+                  <img className="monsterImgSize" src={`/monsterImage/${item.pic00}`} alt={item.pic00} />
+                </th>
+
+                <th className="monsterbox02">
                   <tr><span className="monsterTitle">【攻擊】LV99</span></tr>
                   <tr><img width="25" src={NormalIcon} alt={"Normal"}/> [ {item['attack-Normal-max']} ]</tr>
                   <tr><LevelCompoent level={item['attack-Normal']} /></tr>
@@ -118,7 +116,8 @@ export const SpecialIndividualType = () => {
                   <tr><img width="25" src={DragonIcon} alt={"DragonIcon"}/>[ {item['attack-Dragon-max']} ]</tr>
                   <tr><LevelCompoent level={item['attack-Dragon']} /></tr>
                 </th>
-                <th className="monsterbox04">
+
+                <th className="monsterbox03">
                   <tr><span className="monsterTitle">【防禦】LV99</span></tr>
                   <tr><img width="25" src={NormalIcon} alt={"Normal"}/> [ {item['defense-Normal-max']} ]</tr>
                   <tr><LevelCompoent level={item['defense-Normal']}/></tr>
@@ -133,6 +132,12 @@ export const SpecialIndividualType = () => {
                   <tr><img width="25" src={DragonIcon} alt={"DragonIcon"}/> [ {item['defense-Dragon-max']} ]</tr>
                   <tr><LevelCompoent level={item['defense-Dragon']} /></tr>
                 </th>
+              </tr>
+
+              <tr className = "monsterTable">
+                <th className = "monsterbox01"><span className="monsterTitle">羈絆招式</span> <br></br> { item.skill }{item.skillDescription}</th>
+                <th className = "monsterbox02"><span className="monsterTitle">招式說明</span> <br></br> { item.skillNote}</th> 
+                <th className = "monsterbox03"><span className="monsterTitle">招式影片</span> <br></br> <a href={item.skillhyperlink} target="_blank" rel="noreferrer">{ item.skill }<br></br>↑影片連結</a><br></br> </th>
               </tr>
     
             </li>
