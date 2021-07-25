@@ -181,6 +181,8 @@
 .sectionnav-link{
     position: relative;
     left: auto;
+    text-align: center;
+    width: auto;
 }
 
 .nav-link{

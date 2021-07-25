@@ -1,5 +1,5 @@
 /* import data from '../../../data.json'; */
-import dataN from '../../../datMonsterInfoAdvanceInfo.json';
+import dataN from '../../../dataMonsterInfoAdvanceInfo.json';
 import '../../../resources/css/MonsterInfo/NormalMonsterInfo.css'
 
 //actackModeIcon
@@ -191,29 +191,29 @@ const PartLoadIcon = ({part}) =>{
       case 0:
           return(<img width="30px" src={`/monsterPart/Part00.png`} alt="Part00"/>) 
       case 1:
-          return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part01.png`} alt="Part01"/></div>) 
+          return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part01.png`} alt="Part01"/></div>) 
       case 2:
-          return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part02.png`} alt="Part02"/></div>) 
+          return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part02.png`} alt="Part02"/></div>) 
       case 3:
-          return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part03.png`} alt="Part03"/></div>) 
+          return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part03.png`} alt="Part03"/></div>) 
       case 4:
-          return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part04.png`} alt="Part04"/></div>) 
+          return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part04.png`} alt="Part04"/></div>) 
       case 5:
-          return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part05.png`} alt="Part05"/></div>) 
+          return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part05.png`} alt="Part05"/></div>) 
       case 6:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part06.png`} alt="Part06"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part06.png`} alt="Part06"/></div>) 
       case 7:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part07.png`} alt="Part07"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part07.png`} alt="Part07"/></div>) 
       case 8:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part08.png`} alt="Part08"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part08.png`} alt="Part08"/></div>) 
       case 20:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part20.png`} alt="Part20"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part20.png`} alt="Part20"/></div>) 
       case 21:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part21.png`} alt="Part21"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part21.png`} alt="Part21"/></div>) 
       case 22:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part22.png`} alt="Part22"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg"width="30px" src={`/monsterPart/Part22.png`} alt="Part22"/></div>) 
       case 23:
-         return(<div className="PartBox"><img width="30px" src={`/monsterPart/Part23.png`} alt="Part23"/></div>) 
+         return(<div className="PartBox"><img className="InfoImg" width="30px" src={`/monsterPart/Part23.png`} alt="Part23"/></div>) 
 
       default:
         return null;
@@ -312,7 +312,7 @@ export const AdvancedMonsterInfo = () => {
           <div>    
             <tr >
               <th className="MonsterInfoBox">No.{_item.MN}<br></br><img width="80" src={`/MonsterIcon/${_item.MN}.png`} alt={_item.MN} /></th>
-              <th className="MonsterInfoBox">【名稱】<br></br><text className="MonsterInfoBoxName">{_item.Name}</text></th>
+              <th className="MonsterInfoBox">【魔物】<br></br><text className="MonsterInfoBoxName">{_item.Name}</text></th>
               <th className="MonsterInfoBox">【歸巢】<br></br>{_item.GoHomeMethod}</th>
               <th className="MonsterInfoBox">【地點】<br></br>{_item.location}</th>
             </tr>

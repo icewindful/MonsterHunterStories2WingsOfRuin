@@ -32,7 +32,6 @@
 
 .PartBox{
   position:relative;
-  background-color:royalblue;
 }
 
 
@@ -48,4 +47,9 @@
 .InfoBox{
   position: relative;
   width: 25%;
+}
+
+.InfoImg{
+  background-color:blue;
+  border-radius: 10px;
 }

@@ -3,3 +3,56 @@
   left: 0px;
   top: 50px;
 }
+
+.MonsterInfoBox{
+  position: relative;
+  border-style:double;
+  border-color:gray;
+  width: 25%;
+  text-align: center;
+}
+
+.MonsterStatus{
+  text-align: center;
+  font-size: x-large;
+}
+
+.MonsterInfoBoxName{
+  text-align: center;
+  font-size: x-large;
+  color:blue;
+}
+
+.MonsterInfoBoxPartWeakness{
+  position: relative;
+  border-style:double;
+  border-color:gray;
+  font-size: larger;
+  width: 280px;
+}
+
+.BossPartBox{
+  position:relative;
+  top: 20px;
+  border-radius: 10px;
+}
+
+.InfoImg{
+  background-color:blue;
+  border-radius: 10px;
+}
+
+
+.NormalInfoBox{
+  position: relative;
+  left: auto;
+  right: 0;
+  width: auto;
+  bottom: 0;
+
+}
+
+.InfoBox{
+  position: relative;
+  width: 25%;
+}
