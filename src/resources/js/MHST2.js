@@ -68,9 +68,9 @@ class App extends Component {
             <header className = "headerVar" >Monster Hunter Stories2</header>
             <header className = "headerBTNVar moblie">
               <tr className = "trEnvVar">
-                <th className = "thEnvVar"> <Link to={'/'} className="nav-link" onClick={() => { BackLeftTop()}}> 更新內容 </Link> </th> 
-                <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link" onClick={() => { BackLeftTop()}}> 魔物資訊 </Link></th>
-                <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link" onClick={() => { BackLeftTop()}}> 速查蛋種圖 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/'} className="nav-link" onClick={() => { BackLeftTop()}}> 更新 </Link> </th> 
+                <th className = "thEnvVar"> <Link to={'/MonsterInfo'} className="nav-link" onClick={() => { BackLeftTop()}}> 魔物 </Link></th>
+                <th className = "thEnvVar"> <Link to={'/FastEgglist'} className="nav-link" onClick={() => { BackLeftTop()}}> 速查蛋種 </Link></th>
                 <th className = "thEnvVar"> <Link to={'/Monster'} className="nav-link" onClick={() => { BackLeftTop()}}> 隨行獸 </Link></th>
               </tr>
             </header>

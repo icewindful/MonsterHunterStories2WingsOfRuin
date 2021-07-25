@@ -61,8 +61,8 @@
         position: absolute;
         left: 0px;    
         right: 0px;
-        top: 0%;
-        bottom: 90%;
+        top: 0;
+        bottom: 0;
         background-image: url("../images/SceneMaterial/bg_header.jpg");
         background-repeat:repeat;
         
@@ -88,14 +88,17 @@
         padding: 10px 10px 10px 10px;
     */
     }
+
+    
+ 
 }
 
 .headerbox{
     position: absolute;
-    left: 0px;    
-    right: 0px;
-    top: 0%;
-    bottom: 90%;
+    left: 0;    
+    right: 0;
+    top: 0;
+    bottom: 0;
     background-image: url("../images/SceneMaterial/bg_header.jpg");
     background-repeat:repeat;
     
@@ -132,9 +135,9 @@
 }
 
 .indexEnvSetting{
-    overflow-x: auto;
-    position:relative;
-    left: 0;
+    overflow-x: hidden;
+    position:absolute;
+    left: 0px;
     top:0;
     right: 0;
     bottom: 0;
@@ -186,9 +189,8 @@
     margin-bottom: 10px;*/
     font-size:auto;
     width: max-content;
-    height: 23px;
     border-radius: 5px;
-    padding: 1px 1px 1px 1px; 
+    padding: 1px 3px 1px 3px; 
 }
 
 /* over 768 pixel setting*/
@@ -227,7 +229,7 @@
         left: 0px;
         right: 0px;
         bottom: 0px;
-        top: 10%;
+        top: 240px;
         /* background-color: Gold;- */
         background-image: url("../images/SceneMaterial/bg_game.jpg");
         background-repeat:repeat;
@@ -325,7 +327,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    top: 10%;
+    top: 80px;
     /* background-color: Gold;- */
     background-image: url("../images/SceneMaterial/bg_game.jpg");
     background-repeat:repeat;
