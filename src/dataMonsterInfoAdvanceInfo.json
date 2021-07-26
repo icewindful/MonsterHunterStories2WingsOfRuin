@@ -3481,7 +3481,7 @@
       "BreakPartNote": "???",
       "Mode01": 3,
       "ModeNote01": "無",
-      "Mode02": 1,
+      "Mode02": 2,
       "ModeNote02": "憤怒",
       "Mode03": 0,
       "ModeNote03": "無",
@@ -6571,6 +6571,6 @@
       "WeaknessIcon": 2,
       "location": "納維山腳 · 洛洛斯卡",
       "GoHomeMethod": "此魔物不會歸巢。"
-      }
+    }
   ]
 }
